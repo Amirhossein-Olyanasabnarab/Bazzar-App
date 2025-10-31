@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config({quiet: true});
+const SwaggerConfig = require('./src/config/swagger.config');
 
 async function main(){
     const app = express();
@@ -11,6 +12,7 @@ async function main(){
     
     require('./src/config/mongoose.config');
 
+    SwaggerConfig(app);
     app.listen(port, () => {
         console.log(`Server is running on http://localhost:${port}`);
     });
