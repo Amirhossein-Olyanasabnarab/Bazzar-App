@@ -1,0 +1,30 @@
+{
+  "name": "bazzar-app",
+  "version": "1.0.0",
+  "description": "This is an web application for buying and selling goods",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/Bazzar-App.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Mongo",
+    "DB",
+    "Mongoose",
+    "etc"
+  ],
+  "author": "Amir Hossein Olyanasab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/Bazzar-App/issues"
+  },
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/Bazzar-App#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
